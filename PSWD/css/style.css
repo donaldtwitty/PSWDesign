@@ -682,7 +682,7 @@ button {
 /*}*/
 
 .testimonial_Carousel {
-    border: #9d9faf solid 1px;
+    border: #120037 solid 1px;
     padding: 40px 20px;
 }
 
@@ -700,7 +700,7 @@ button {
 }
 
 .margin_boot {
-    border-right: #9d9faf solid 2px;
+    border-right: #120037 solid 2px;
 }
 
 .flot_right {
@@ -717,8 +717,8 @@ button {
 
 .testimonial_Carousel .test_box1 figure img {
     max-width: 206px;
-    border-radius: 200px;
-    border: #120037 solid 6px;
+    /*border-radius: 200px;*/
+    /*border: #120037 solid 6px;*/
 }
 
 .testimonial_Carousel .test_box1 h4 {
