@@ -658,7 +658,7 @@ button {
     line-height: 32px;
 }
 
-.contact-item p {
+.contact-item a {
     color: #ffffff;
     font-size: 19px;
 }
@@ -774,7 +774,7 @@ button {
     background: #120037;
     padding-top: 85px;
     text-align: center;
-    padding-bottom: 5px;
+    padding-bottom: 70px;
     position: relative;
 }
 
@@ -812,12 +812,12 @@ button {
     padding: 0;
 }
 
-.footer_cont p {
+.footer_cont a {
     color: #a274ff;
     font-size: 17px;
     line-height: 28px;
     padding-top: 20px;
-    padding-bottom: 40px;
+    /*padding-bottom: 80px;*/
 }
 
 /*.footer_cont .read_more {*/
