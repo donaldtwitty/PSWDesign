@@ -302,6 +302,7 @@ button {
 
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 
+/** header logo **/
 .header {
     width: 100%;
     background: transparent;
@@ -310,9 +311,33 @@ button {
     z-index: 999;
 }
 
+/* Basic responsive image styles */
+.img-responsive {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    height: auto;    /* Maintain aspect ratio */
+}
+
+/* Example media queries for logo adjustments */
+@media (max-width: 768px) { /* Adjust for tablets and smaller */
+    .logo img {
+        max-width: 80%; /* Slightly smaller logo on smaller screens */
+    }
+}
+
+@media (max-width: 576px) { /* Adjust for mobile phones */
+    .logo img {
+        max-width: 60%; /* Even smaller logo on mobile */
+        /* You might also want to center the logo on mobile */
+        display: block;
+        margin: 0 auto;
+    }
+    .logo_section {
+        text-align: center;
+    }
+}
+
 .logo a {
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 30px;
     color: #fff;
     line-height: 40px;
 }
